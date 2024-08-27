@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.balance {
+    margin-bottom: 20px;
+    background-color: #e74c3c;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.income-expense {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.income, .expense {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.expense {
+    background-color: #e74c3c;
+}
+
+.history {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.history h3 {
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#history-list li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-transaction {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.add-transaction h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#transaction-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#transaction-form button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#transaction-form button:hover {
+    background-color: #2980b9;
+}
+
+.quick-transaction {
+    text-align: left;
+}
+
+.quick-transaction h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.quick-income, .quick-expense {
+    margin-bottom: 10px;
+}
+
+.quick-transaction input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.quick-transaction button {
+    background-color: #2ecc71; /* Green for income */
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quick-transaction button:hover {
+    background-color: #27ae60;
+}
+
+.quick-expense button {
+    background-color: #e74c3c; /* Red for expense */
+}
+
+.quick-expense button:hover {
+    background-color: #c0392b;
+}
