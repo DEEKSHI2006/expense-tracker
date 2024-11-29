@@ -1,1 +1,1 @@
-# expense
+The Expense Tracker Website is a simple and intuitive web-based application that helps users track their income and expenses. It provides a clean interface for users to input transactions, categorize expenses, and view summary reports, enabling better financial management and budgeting.
